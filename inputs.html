@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Probber Design System</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<nav id="primary-navigation">
+    <h2 id="nav-header"><a href="index.html">Probber Design System</a></h2>
+    <ul class="nav-list">
+        <li><a href="grid.html">Grid</a></li>
+        <li><a href="typo.html">Typo</a></li>
+        <li><a href="animation.html">Animation</a></li>
+        <li><a href="colors.html">Colors</a></li>
+        <li><a href="icons.html">Icons</a></li>
+        <li><a href="logotype.html">Logotype</a></li>
+        <li><a href="info-messages.html">Info messages</a></li>
+        <li><a href="inactive-elements.html">Inactive elem</a></li>
+        <li><a href="shadows.html">Shadows</a></li>
+        <li><a href="buttons.html">Buttons</a></li>
+        <li><a href="inputs.html">Inputs</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="tables.html">Tables</a></li>
+    </ul>
+</nav>
+<div id="main-content">
+    <h1>Inputs</h1>
+    <p>Input fields allow users to add text within a defined area or select value from defined list.</p>
+    <h2>Types</h2>
+    <h3>Text fields</h3>
+    <p>text, email, phone, search, etc - with one line input</p>
+    
+    <h3>Textarea</h3>
+    <p>used for multiline text inputs</p>
+    <style>
+        label {
+            font-size: 13px;
+            color: rgba(12, 13, 13, 1);
+            display: block;
+            margin-bottom: 2px;
+            margin-top: 12px;
+        }
+        input {
+            font-size: 15px;
+            font-family: inherit;
+            padding: 4px 8px;
+            border: 1px solid rgba(12, 13, 13, 0.3);
+            border-radius: 2px;
+            width: 280px;
+        }
+        input:focus {
+            border-color: #2980b9;
+            outline-color: #2980b9;
+        }
+    </style>
+    <label for="email">Email address</label>
+    <input type="text" name="email" placeholder="info@mareksommer.cz">
+
+    <style>
+        textarea {
+            font-size: 15px;
+            font-family: inherit;
+            padding: 4px 8px;
+            border: 1px solid rgba(12, 13, 13, 0.3);
+            border-radius: 2px;
+            width: 280px;
+        }
+        textarea:focus {
+            border-color: #2980b9;
+            outline-color: #2980b9;
+        }
+    </style>
+    <label for="textarea">Textarea</label>
+    <textarea name="textarea" cols="30" rows="10" placeholder="Insert some text"></textarea>
+
+    <style>
+    .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .button {
+        padding: 8px 32px;
+        font-size: 14px;
+        border: 0px;
+        border-radius: 2px;
+    }
+
+    .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    }
+    </style>
+    <label for="">File upload</label>
+    <div class="upload-btn-wrapper">
+        <button class="button">Upload a file</button>
+        <input type="file" name="myfile" />
+    </div>
+
+    <style>
+        input[type="radio"] {
+            width: 16px;
+            height: 16px;
+            margin: 4px 4px;
+        }    
+        .radio-container .item {
+            display: flex;
+            align-items: center;
+        }
+        .radio-container label {
+            margin: 4px;
+            margin-left: 4px;
+        }
+    </style>
+    <div class="radio-container">
+        <label for="">Choose your preferred contact method</label>
+        <div class="item">
+            <input type="radio" id="contactChoice1" name="contact" value="email">
+            <label for="contactChoice1">Email</label>
+        </div>
+        <div class="item">
+            <input type="radio" id="contactChoice2" name="contact" value="phone">
+            <label for="contactChoice2">Phone</label>
+        </div>
+        <div class="item">
+            <input type="radio" id="contactChoice3" name="contact" value="mail">
+            <label for="contactChoice3">Mail</label>
+        </div>
+    </div>
+
+    <style>
+        input[type="checkbox"] {
+            width: 16px;
+            height: 16px;
+            margin: 4px 4px;
+        }    
+        .checkbox-container .item {
+            display: flex;
+            align-items: center;
+        }
+        .checkbox-container label {
+            margin: 4px;
+            margin-left: 4px;
+        }
+    </style>
+    <div class="checkbox-container">
+        <label for="">Choose your preferred contact method</label>
+        <div class="item">
+            <input type="checkbox" id="contactChoice1" name="contact" value="email">
+            <label for="contactChoice1">Email</label>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="contactChoice2" name="contact" value="phone">
+            <label for="contactChoice2">Phone</label>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="contactChoice3" name="contact" value="mail">
+            <label for="contactChoice3">Mail</label>
+        </div>
+    </div>
+
+    <style>
+       select, option {
+           font-family: 'Fira Sans';
+           padding: 4px 8px;
+           font-size: 13px;
+           width: 206px;
+       } 
+    </style>
+    <label for="">Select your value</label>
+    <select name="select">
+        <option value="value1">Value 1</option> 
+        <option value="value2" selected>Value 2</option>
+        <option value="value3">Value 3</option>
+    </select>
+ </div>
+</div>
+</body>
+    
+</html>

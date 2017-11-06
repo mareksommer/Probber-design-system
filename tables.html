@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Probber Design System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<nav id="primary-navigation">
+    <h2 id="nav-header"><a href="index.html">Probber Design System</a></h2>
+    <ul class="nav-list">
+        <li><a href="grid.html">Grid</a></li>
+        <li><a href="typo.html">Typo</a></li>
+        <li><a href="animation.html">Animation</a></li>
+        <li><a href="colors.html">Colors</a></li>
+        <li><a href="icons.html">Icons</a></li>
+        <li><a href="logotype.html">Logotype</a></li>
+        <li><a href="info-messages.html">Info messages</a></li>
+        <li><a href="inactive-elements.html">Inactive elem</a></li>
+        <li><a href="shadows.html">Shadows</a></li>
+        <li><a href="buttons.html">Buttons</a></li>
+        <li><a href="inputs.html">Inputs</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="tables.html">Tables</a></li>
+    </ul>
+</nav>
+<div id="main-content">
+    <h1>Tables</h1>
+
+    <style>
+        /* Tables */
+        table {
+            white-space: normal;
+            width: 100%;
+            border: 1px solid var(--grey-20);
+            border-collapse: collapse;
+            border-spacing: 0;
+            display: table;
+            margin-bottom: 1rem;
+            max-width: 100%;
+            -webkit-overflow-scrolling: touch;
+            overflow-x: auto;
+            vertical-align: top;
+            white-space: nowrap;
+        }
+        table th {
+            background-color: rgb(237, 237, 240);
+            font-size: 13px;
+            font-weight: 500;
+            text-align: left;
+            padding: 8px 12px;
+        }
+        table tr {
+            border: 1px solid rgb(237, 237, 240);
+        }
+        table td {
+            font-size: 13px;
+            font-weight: 500;
+            text-align: left;
+            padding: 8px 12px;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Weight</th>
+                <th>Emphasized</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h1>h1 Title</h1>
+                </td>
+                <td>33px</td>
+                <td>UltraLight 100</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td>
+                   <h2>h2 Title</h2>                   
+                </td>
+                <td>21px</td>
+                <td>UltraLight 100</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>h3 Title</h3>
+                </td>
+                <td>18px</td>
+                <td>Normal 400</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>h4 Title</h4>
+                </td>
+                <td>13px</td>
+                <td>Normal 400</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>h5 Title</h5>
+                </td>
+                <td>13px</td>
+                <td>Normal 400</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td> 
+                    <h6>h6 Title</h6></td>
+                <td>12px</td>
+                <td>Normal 400</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td> 
+                    <p>p paragraph</p></td>
+                <td>15px</td>
+                <td>Normal 400</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td> 
+                    <p class="small">paragraph - small</p></td>
+                <td>13px</td>
+                <td>Normal 400</td>
+                <td>SemiBold 600</td>
+            </tr>
+            <tr>
+                <td> 
+                    <p class="caption">caption - with class .caption</p></td>
+                <td>13px</td>
+                <td>Normal 400</td>
+                <td>SemiBold 600</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

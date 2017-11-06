@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Probber Design System</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<nav id="primary-navigation">
+    <h2 id="nav-header"><a href="index.html">Probber Design System</a></h2>
+    <ul class="nav-list">
+        <li><a href="grid.html">Grid</a></li>
+        <li><a href="typo.html">Typo</a></li>
+        <li><a href="animation.html">Animation</a></li>
+        <li><a href="colors.html">Colors</a></li>
+        <li><a href="icons.html">Icons</a></li>
+        <li><a href="logotype.html">Logotype</a></li>
+        <li><a href="info-messages.html">Info messages</a></li>
+        <li><a href="inactive-elements.html">Inactive elem</a></li>
+        <li><a href="shadows.html">Shadows</a></li>
+        <li><a href="buttons.html">Buttons</a></li>
+        <li><a href="inputs.html">Inputs</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="tables.html">Tables</a></li>
+    </ul>
+</nav>
+<div id="main-content">
+    <h1>Info messages</h1>
+    <p>Generaly we have 5 different types of messages.</p>
+    <p>Mesasge bars should be placed on top of the window or nearby forms and buttons. If they raised on users interaction with them.</p>
+
+    <h2>Base types</h2>
+    <h3>Generic</h3>
+    <p>Convey general information or actions that aren’t critical. Include lower priority information and should always be dismissible.</p>
+    <ul class="info-messages">
+        <li class="message-generic">
+            <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <path d="M12.13,11.59 C11.97,12.84 10.35,14.12 9.1,14.16 C6.17,14.2 9.89,9.46 8.74,8.37 C9.3,8.16 10.62,7.83 10.62,8.81 C10.62,9.63 10.12,10.55 9.88,11.32 C8.66,15.16 12.13,11.15 12.14,11.18 C12.16,11.21 12.16,11.35 12.13,11.59 C12.08,11.95 12.16,11.35 12.13,11.59 L12.13,11.59 Z M11.56,5.67 C11.56,6.67 9.36,7.15 9.36,6.03 C9.36,5 11.56,4.54 11.56,5.67 L11.56,5.67 Z"></path>
+                <circle fill="none" stroke="#000" stroke-width="1.1" cx="10" cy="10" r="9"></circle>
+            </svg>
+            <span class="content">There 5 or more items on stock</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="close">
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+            </svg>
+        </li>
+        <li class="message-generic" style="width: 300px;">
+                <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <path d="M12.13,11.59 C11.97,12.84 10.35,14.12 9.1,14.16 C6.17,14.2 9.89,9.46 8.74,8.37 C9.3,8.16 10.62,7.83 10.62,8.81 C10.62,9.63 10.12,10.55 9.88,11.32 C8.66,15.16 12.13,11.15 12.14,11.18 C12.16,11.21 12.16,11.35 12.13,11.59 C12.08,11.95 12.16,11.35 12.13,11.59 L12.13,11.59 Z M11.56,5.67 C11.56,6.67 9.36,7.15 9.36,6.03 C9.36,5 11.56,4.54 11.56,5.67 L11.56,5.67 Z"></path>
+                    <circle fill="none" stroke="#000" stroke-width="1.1" cx="10" cy="10" r="9"></circle>
+                </svg>
+                <span class="content">There 5 or more items on stock</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="close">
+                    <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                    <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+                </svg>
+            </li>
+    </ul> 
+
+    <h3>Attention</h3>
+    <p>Update users about a change or give them advice.</p>
+    <ul class="info-messages">
+        <li class="message-attention">
+            <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <path fill="none" stroke="#000" stroke-width="1.1" d="M17,15.5 L3,15.5 C2.99,14.61 3.79,13.34 4.1,12.51 C4.58,11.3 4.72,10.35 5.19,7.01 C5.54,4.53 5.89,3.2 7.28,2.16 C8.13,1.56 9.37,1.5 9.81,1.5 L9.96,1.5 C9.96,1.5 11.62,1.41 12.67,2.17 C14.08,3.2 14.42,4.54 14.77,7.02 C15.26,10.35 15.4,11.31 15.87,12.52 C16.2,13.34 17.01,14.61 17,15.5 L17,15.5 Z"></path>
+                <path fill="none" stroke="#000" d="M12.39,16 C12.39,17.37 11.35,18.43 9.91,18.43 C8.48,18.43 7.42,17.37 7.42,16"></path>
+            </svg>
+            <span class="content">You have successfully completed exam</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="close">
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+            </svg>
+        </li>
+        <li class="message-attention" style="width: 300px;">
+                <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <path fill="none" stroke="#000" stroke-width="1.1" d="M17,15.5 L3,15.5 C2.99,14.61 3.79,13.34 4.1,12.51 C4.58,11.3 4.72,10.35 5.19,7.01 C5.54,4.53 5.89,3.2 7.28,2.16 C8.13,1.56 9.37,1.5 9.81,1.5 L9.96,1.5 C9.96,1.5 11.62,1.41 12.67,2.17 C14.08,3.2 14.42,4.54 14.77,7.02 C15.26,10.35 15.4,11.31 15.87,12.52 C16.2,13.34 17.01,14.61 17,15.5 L17,15.5 Z"></path>
+                    <path fill="none" stroke="#000" d="M12.39,16 C12.39,17.37 11.35,18.43 9.91,18.43 C8.48,18.43 7.42,17.37 7.42,16"></path>
+                </svg>
+                <span class="content">You have new follower</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="close">
+                    <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                    <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+                </svg>
+            </li>
+    </ul>
+
+    <h3>Success</h3>
+    <p>Inform users when actions are successfully completed.</p>
+    <ul class="info-messages">
+        <li class="message-success">
+            <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline>  
+            </svg>
+            <span class="content">Your data was saved</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="close">
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+            </svg>
+        </li>
+        <li class="message-success" style="width: 300px;">
+                <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <polyline fill="none" stroke="#000" stroke-width="1.1" points="4,10 8,15 17,4"></polyline>                </svg>
+                </svg>
+                <span class="content">Your email was send</span>
+        </li>
+    </ul>
+
+    <h3>Warning</h3>
+    <p>Display exceptions or information the user needs to act on.</p>
+    <ul class="info-messages">
+        <li class="message-warning">
+            <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <circle cx="10" cy="14" r="1"></circle>
+                <circle fill="none" stroke="#000" stroke-width="1.1" cx="10" cy="10" r="9"></circle>
+                <path d="M10.97,7.72 C10.85,9.54 10.56,11.29 10.56,11.29 C10.51,11.87 10.27,12 9.99,12 C9.69,12 9.49,11.87 9.43,11.29 C9.43,11.29 9.16,9.54 9.03,7.72 C8.96,6.54 9.03,6 9.03,6 C9.03,5.45 9.46,5.02 9.99,5 C10.53,5.01 10.97,5.44 10.97,6 C10.97,6 11.04,6.54 10.97,7.72 L10.97,7.72 Z"></path>
+            </svg>           </svg>
+            <span class="content">The data you've just inserted, need your attention </span>
+            <button class="small-button">re-check input</button>
+            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="close">
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+            </svg>
+        </li>
+        <li class="message-warning" style="width: 300px;">
+            <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <circle cx="10" cy="14" r="1"></circle>
+                <circle fill="none" stroke="#000" stroke-width="1.1" cx="10" cy="10" r="9"></circle>
+                <path d="M10.97,7.72 C10.85,9.54 10.56,11.29 10.56,11.29 C10.51,11.87 10.27,12 9.99,12 C9.69,12 9.49,11.87 9.43,11.29 C9.43,11.29 9.16,9.54 9.03,7.72 C8.96,6.54 9.03,6 9.03,6 C9.03,5.45 9.46,5.02 9.99,5 C10.53,5.01 10.97,5.44 10.97,6 C10.97,6 11.04,6.54 10.97,7.72 L10.97,7.72 Z"></path>
+            </svg>                </svg>
+            <span class="content">Your payment is pending</span>
+        </li>
+    </ul>
+
+    <h3>Error</h3>
+    <p>Communicate problems that must be addressed before a user can complete a task.</p>
+    <ul class="info-messages">
+        <li class="message-error">
+            <svg width="18" height="18" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <circle fill="none" stroke="#000" stroke-width="1.1" cx="9.5" cy="9.5" r="9"></circle>
+                <line fill="none" stroke="#000" x1="5" y1="9.5" x2="14" y2="9.5"></line>
+            </svg>          </svg>
+            <span class="content">Saving data failed </span>
+            <button class="small-button">retry</button>
+            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="close">
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+            </svg>
+        </li>
+        <li class="message-error" style="width: 300px;">
+            <svg width="18" height="18" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <circle fill="none" stroke="#000" stroke-width="1.1" cx="9.5" cy="9.5" r="9"></circle>
+                <line fill="none" stroke="#000" x1="5" y1="9.5" x2="14" y2="9.5"></line>
+            </svg>            </svg>
+            <span class="content">Error loading your image</span>
+        </li>
+    </ul>
+</div>
+</body>
+    
+</html>
