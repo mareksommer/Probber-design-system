@@ -37,10 +37,65 @@
 
     <h2>Types</h2>
     <h3>Primary</h3>
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .primary {
+            background-color: rgb(0, 96, 223);
+            color: white;
+        }
+        .button.primary:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(0, 96, 223, .9);
+        }
+    </style>
     <button class="button primary">Something</button>
     <h3>Default</h3>
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }
+    </style>
+    </style>
     <button class="button">Something</button>
+    
     <h3>Ghost</h3>
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }
+        .button.icon-only {
+            padding: 8px;
+            padding-bottom: 4px;
+        }
+    </style>
     <button class="button icon-only">
         <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <rect x="1" y="3" width="18" height="1"></rect>
@@ -49,6 +104,30 @@
             <rect x="1" y="15" width="18" height="1"></rect>
         </svg>
     </button>
+
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .button.primary:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(0, 96, 223, .9);
+        }
+        .button.icon-only {
+            padding: 8px;
+            padding-bottom: 4px;
+        }
+        .primary {
+            background-color: rgb(0, 96, 223);;
+            color: white;
+        }
+    </style>
     <button class="button icon-only primary">
             <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <ellipse fill="none" stroke="white" cx="6.11" cy="3.55" rx="2.11" ry="2.15"></ellipse>
@@ -62,7 +141,32 @@
                 <rect x="10" y="15" width="8" height="1" fill="white"></rect>
             </svg>
     </button>
+
     <h3>Icon & label</h3>
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }
+        .button.icon {
+            padding: 8px;
+        }
+        .button.icon .flex-container span {
+            margin-left: 8px;
+        }
+        .button .flex-container {
+            align-items: center;
+        }
+    </style>
     <button class="button icon">
         <div class="flex-container">
             <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -74,6 +178,39 @@
             <span>Menu</span>
         </div>
     </button>
+
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .primary {
+            background-color: rgb(0, 96, 223);
+            color: white;
+        }
+        .button.primary:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(0, 96, 223, .9);
+        }
+        .button.icon {
+            padding: 8px;
+        }
+        .button.icon .flex-container span {
+            margin-left: 8px;
+        }
+        .button .flex-container {
+            align-items: center;
+        }
+        .primary {
+            background-color: rgb(0, 96, 223);
+            color: white;
+        }
+    </style>
     <button class="button icon primary">
         <div class="flex-container">
             <span style="margin-right: 20px;">Trash</span>
@@ -86,6 +223,31 @@
             </svg>
         </div>
     </button>
+
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }
+        .button.icon {
+            padding: 8px;
+        }
+        .button.icon .flex-container span {
+            margin-left: 8px;
+        }
+        .button .flex-container {
+            align-items: center;
+        }
+    </style>
     <button class="button icon">
         <div class="flex-container">
             <span style="margin-right: 32px;">Refresh</span>
@@ -97,28 +259,201 @@
     </button>
 
     <h3>Segmented</h3>
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }
+        .button.icon {
+            padding: 8px;
+        }
+        .button.icon .flex-container span {
+            margin-left: 8px;
+        }
+        .button .flex-container {
+            align-items: center;
+        }
+        .segmented {
+            padding: 6px 8px !important;
+        }
+        .segmented .separator {
+            display: inline-block;
+            width: 1px;
+            height: 2em;
+            margin-right: 4px;
+            border-left: 1px solid rgba(12, 12, 13, .3);
+        }
+    </style>
     <button class="button icon segmented">
-            <div class="flex-container">
-                <span style="margin-right: 32px;">Update now</span>
-                <span class="separator"></span>
-                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <polyline fill="none" stroke="#000" stroke-width="1.03" points="16 7 10 13 4 7"></polyline>
-                </svg>
-            </div>
-        </button>
+        <div class="flex-container">
+            <span style="margin-right: 32px;">Update now</span>
+            <span class="separator"></span>
+            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" stroke="#000" stroke-width="1.03" points="16 7 10 13 4 7"></polyline>
+            </svg>
+        </div>
+    </button>
 
     <h3>Disabled</h3>
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .disabled {
+            opacity: .4;
+        }
+        .disabled:hover {
+            cursor: not-allowed;
+        }
+    </style>
     <button class="button disabled">Something</button>
+
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .primary {
+            background-color: rgb(0, 96, 223);
+            color: white;
+        }
+        .disabled {
+            opacity: .4;
+        }
+        .button.primary.disabled:hover {
+            cursor: not-allowed;
+            background-color: rgb(0, 96, 223);
+        }
+    </style>
     <button class="button disabled primary">Something</button>
     <h2>Sizes</h2>
     <h3>Small</h3>
+    <style>
+        .small-button {
+            font-family: inherit;
+            padding: 4px 8px;
+            font-size: 12px;
+            border: 0px; 
+            border-radius: 2px;
+            background-color: #ededf0;
+        }   
+        .small-button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }   
+    </style>
     <button class="small-button">Something</button>
+
+    <style>
+        .small-button {
+            font-family: inherit;
+            padding: 4px 8px;
+            font-size: 12px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: #ededf0;
+        }   
+        .small-button.primary {
+            background-color: rgb(0, 96, 223);
+            color: white;
+        }
+        .small-button.primary:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(0, 96, 223, .9);
+        }   
+    </style>
     <button class="small-button primary">Something</button>
     <h3>Default</h3>
+
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }
+    </style>
     <button class="button">Something</button>
+
+    <style>
+        .button {
+            font-family: inherit;
+            padding: 8px 32px;
+            font-size: 14px;
+            border: 0px;
+            border-radius: 2px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .primary {
+            background-color: rgb(0, 96, 223);
+            color: white;
+        }
+        .button.primary:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(0, 96, 223, .9);
+        }
+    </style>
     <button class="button primary">Something</button>
     <h3>Big</h3>
+    <style>
+        .big-button {
+            padding: 16px 32px;
+            font-size: 18px;
+            border: 0px;
+            border-radius: 4px;
+            background-color: rgba(237,237,240, 1);
+        }
+        .big-button:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(237,237,240, .76);
+        }
+    </style>
     <button class="big-button">Something</button>
+
+    <style>
+        .big-button.primary {
+            padding: 16px 32px;
+            font-size: 18px;
+            border: 0px;
+            border-radius: 4px;
+            color: white;
+            background-color: rgb(0, 96, 223);
+        }
+        .big-button.primary:hover {
+            cursor: pointer;
+            transition: .3s cubic-bezier(.07,.95,0,1); 
+            background-color: rgba(0, 96, 223, .9);
+        }
+    </style>
     <button class="big-button primary">Something</button>
 </div>
 </body>
