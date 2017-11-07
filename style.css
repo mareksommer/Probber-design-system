@@ -232,7 +232,6 @@ table td {
 }
 .info-messages .message-attention .close:hover path {
     stroke: #0c0c0d; 
-    transition: cubic-bezier(.07,.95,0,1); 
 }
 .message-success {
     background-color: #2ecc71;
